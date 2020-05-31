@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>宅男呀-个人博客</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="宅男呀-个人博客">
+  <title>用Hexo+Coding搭建一个访问更快的个人blog | 宅男呀-个人博客</title>
+  <meta name="keywords" content=" hexo , Coding ">
+  <meta name="description" content="用Hexo+Coding搭建一个访问更快的个人blog | 宅男呀-个人博客">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="个人简介刘胜，目前从事 Web前端 及相关工作。目前努力深入学习Vue及相关前端知识。 最近在看掘金，和水前端微信群，看掘金热榜，看群里发的链接，努力涉取知识。 联系方式 QQ : 1824302727 邮箱 : 1824302727@qq.com">
 <meta property="og:type" content="website">
@@ -53,7 +53,7 @@
 
 
 <body>
-<aside class="nav mobile">
+<aside class="nav">
     <div class="nav-left">
         <a href="/" class="avatar_target">
     <img class="avatar" src="/img/avatar.jpg" />
@@ -278,12 +278,59 @@
         </div>
     </div>
 </aside>
-<div id="post" class="index">
+<div id="post">
     <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
+        <article id="hexo-coding" class="article article-type-hexo" itemscope itemprop="blogPost">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Blog"><span class="toc-text">Blog</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#个人博客"><span class="toc-text">个人博客</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#关于作者"><span class="toc-text">关于作者</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#博客平台"><span class="toc-text">博客平台</span></a></li></ol></li></ol>
+        <h1 class="article-title">用Hexo+Coding搭建一个访问更快的个人blog</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            <a  data-rel="工具">工具</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color5">hexo</a>
+            
+            <a class="color2">Coding</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+            发布时间 : <time class="date" title='最后更新: 2020-05-31 09:03:16'>2020-05-31 08:40</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读 :<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#起由"><span class="toc-text">起由</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#构建流程"><span class="toc-text">构建流程</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -296,29 +343,58 @@
     }
 </style>
 </div>
-            <h1 id="Blog"><a href="#Blog" class="headerlink" title="Blog"></a>Blog</h1><h2 id="个人博客"><a href="#个人博客" class="headerlink" title="个人博客"></a>个人博客</h2><p>我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分散分布在各个网站上。很多时候我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制，所以我们需要一个可以由自己主宰的空间——博客。</p>
-<p>通过博客，我们可以记录自己的生活和成长的轨迹，它是私人的空间。</p>
-<h2 id="关于作者"><a href="#关于作者" class="headerlink" title="关于作者"></a>关于作者</h2><p>一个前端菜鸟的自娱自乐。</p>
-<blockquote>
-<p>由于作者太菜，数据目前都不对，请见谅。</p>
-</blockquote>
-<p>到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。</p>
-<p>本站访问人数：<code class="site_uv"></code>人次 ， 访问量：<code class="site_pv"></code>次</p>
-<h2 id="博客平台"><a href="#博客平台" class="headerlink" title="博客平台"></a>博客平台</h2><p>这个博客通过 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 生成，部署在 <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>,采用主题 <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank" rel="noopener">3-hexo</a> </p>
-<p>主要功能：</p>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="起由"><a href="#起由" class="headerlink" title="起由"></a>起由</h1><ul>
+<li>Hexo+GitHub Pages搭建出的自己的blog，访问起来慢。</li>
+</ul>
+<h1 id="构建流程"><a href="#构建流程" class="headerlink" title="构建流程"></a>构建流程</h1><ul>
+<li><p>技术：Hexo+Coding</p>
 <ul>
-<li>搜索支持文章标题、标签(#标签)、作者(@作者)</li>
-<li>pad/手机等移动端适配</li>
-<li>页面全局快捷键 <a href='http://yelog.org/2017/03/24/3-hexo-shortcuts/' target="_blank" rel="noopener">3-hexo快捷键说明</a></li>
+<li><p>流程：如果在gitHub部署过，只需要在Coding注册个团队，自己创建个项目。</p>
+</li>
+<li><p>记得添加ssh key，和git一样,如果git新增过公钥，只需要找到本地文件夹复制，然后打开coding -&gt; 个人设置 -&gt; ssh公钥 -&gt;新增，如果git没有新增过可以看下面相关链接.</p>
+</li>
+<li><p>相关链接</p>
+<ul>
+<li>Hexo博客框架的搭建的相关操作：<a href="https://zhuanlan.zhihu.com/p/144722437?utm_source=wechat_session&utm_medium=social&s_s_i=J1pd3Mj%2FkL%2BWcF6IEDC3OtJ%2BhjYsou66uX74X7eGrcA%3D&s_r=1#showWechatShareTip" target="_blank" rel="noopener">Hexo建站手册（详细教程）</a>   </li>
+<li><a href="https://blog.csdn.net/BlowMoons/article/details/100544444" target="_blank" rel="noopener">Hexo部署到Coding上</a></li>
+<li><a href="https://coding.net/" target="_blank" rel="noopener">Coding</a></li>
+<li><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo官网地址</a> </li>
+</ul>
+</li>
+<li><p>然后我的团队 -&gt; 全部项目 -&gt; 进入到刚才创建的项目 -&gt; 项目概述 -&gt; 复制右侧链接 -&gt; 去自己项目的_config.yml文件中 修改 repository：地址</p>
+<blockquote>
+<p>deploy:<br> type: git<br> repository: <a href="https://github.com/liusheng-zhainanya/liusheng-zhainanya.github.io.git" target="_blank" rel="noopener">https://github.com/liusheng-zhainanya/liusheng-zhainanya.github.io.git</a> # 用https或者ssh均可<br> repository: <a href="https://e.coding.net/liusheng-zhainanya/ls-blog.git" target="_blank" rel="noopener">https://e.coding.net/liusheng-zhainanya/ls-blog.git</a> # 用https或者ssh均可<br> branch: master</p>
+</blockquote>
+</li>
+<li><p>遇到问题可加QQ询问</p>
+</li>
+</ul>
+</li>
 </ul>
 
-        </article>
-        
-        <p>
-            <a  class="dashang" onclick="dashangToggle()">赏</a>
-        </p>
-        
-        
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎指出任何有错误或不够清晰的表达，可以加QQ或者邮件至 1824302727@qq.com。 </span>
+    </div>
+</article>
+
+
+<p>
+    <a  class="dashang" onclick="dashangToggle()">赏</a>
+</p>
+
+
+
+
+
+
+    
+
+
+
+
     </div>
     <div class="copyright">
         <p class="footer-entry">
@@ -327,11 +403,11 @@
 <p class="footer-entry"><a href="https://liusheng-zhainanya.github.io/" target="_blank">github-zhainanya theme</a> and <a href="http://hfal0u.coding-pages.com/" target="_blank">coding-zhainanya theme </a> </p>
 
     </div>
-</div>
-<div class="full-toc">
-    <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
+    <div class="full-toc">
+        <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
 <a class="" id="rocket" ></a>
 
+    </div>
 </div>
 
 <div class="hide_box" onclick="dashangToggle()"></div>
